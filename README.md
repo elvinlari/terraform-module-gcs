@@ -19,7 +19,7 @@ Terraform 1.2.x
 Example module invocation:
 ```hcl
 module "storage" {
-  source      = "git::https://github.com/CloudNativeTech/terraform-module-gcs.git"
+  source      = "git::https://github.com/elvinlari/terraform-module-gcs.git"
   bucket_name = "my-storage-34567"
   project_id  = "your-gcp-project-id"
   labels = {
@@ -43,4 +43,3 @@ See [CHANGELOG.md](CHANGELOG.md)
 Please see [LICENSE](LICENSE)
 
 ## Contact
-[Send email](mailto:contact@cntek.io?subject=Regarding%20CloudNativeTech/terraform-module-gcs)
